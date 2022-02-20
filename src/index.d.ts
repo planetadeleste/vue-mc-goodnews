@@ -3,14 +3,32 @@ import { ArticleData, CategoryData } from "./types";
 
 declare module "@planetadeleste/vue-mc-goodnews" {
   import { Model, Collection } from "@planetadeleste/vue-mc";
+  import { Response } from "vue-mc";
 
-  class Article extends Model {}
   interface Article extends Model, ArticleData {}
+  class Article extends Model {}
+  class ArticleCollection extends Collection<Article> {
+    list(): Promise<Response<ArticleData[]>>;
+    byCategory<T extends ArticleCollection>(
+      this: T,
+      iCategoryId: number | number[]
+    ): T;
+    byPublished<T extends ArticleCollection>(this: T): T;
+  }
 
-  class Category extends Model {}
   interface Category extends Model, CategoryData {}
+  class Category extends Model {}
+  class CategoryCollection extends Collection<Category> {
+    list(): Promise<Response<CategoryData[]>>;
+    byActive<T extends CategoryCollection>(this: T): T;
+  }
 
-  export { ArticleData, Article, CategoryData, Category };
-  export class Articles extends Collection<Article> {}
-  export class Categories extends Collection<Category> {}
+  export {
+    Article,
+    ArticleCollection,
+    ArticleData,
+    Category,
+    CategoryCollection,
+    CategoryData,
+  };
 }

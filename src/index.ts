@@ -5,10 +5,10 @@
  */
 
 // COLLECTIONS
-import Articles from "./collections/Articles";
-import Categories from "./collections/Categories";
+import ArticleCollection from "./collections/ArticleCollection";
+import CategoryCollection from "./collections/CategoryCollection";
 
-export { Articles, Categories };
+export { ArticleCollection, CategoryCollection };
 
 // MODELS
 import Article from "./models/Article";
