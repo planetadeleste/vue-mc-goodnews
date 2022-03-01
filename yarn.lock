@@ -910,10 +910,10 @@
     "@nodelib/fs.scandir" "2.1.4"
     fastq "^1.6.0"
 
-"@planetadeleste/vue-mc@^1.0.77":
-  version "1.0.86"
-  resolved "https://registry.yarnpkg.com/@planetadeleste/vue-mc/-/vue-mc-1.0.86.tgz#2490cfc82edb064a8390d34111ba7a75cab4d922"
-  integrity sha512-Fg81n093dmwztXd9w0WkrQQi1e2nrgXD1fPsHzjEiYLNAFq0YigDExI3o5RGfMN2zKunLz6VEy7SfK5HTPsHkg==
+"@planetadeleste/vue-mc@^1.0.117":
+  version "1.0.117"
+  resolved "https://registry.yarnpkg.com/@planetadeleste/vue-mc/-/vue-mc-1.0.117.tgz#bb2b6d89acb3cf3309f58625bf1e704e41038fbe"
+  integrity sha512-pxgr0FUFvpilF7EaE52QrqteO825eLlXZ4C6pExARIO3R27ieDlRMktgp6R64Hz2EijmiSp2lnUOocAguLP3UA==
   dependencies:
     object-to-formdata "^4.1.0"
 
@@ -1929,9 +1929,9 @@ object-keys@^1.0.12, object-keys@^1.1.1:
   integrity sha512-NuAESUOUMrlIXOfHKzD6bpPu3tYt3xvjNdRIQ+FeT0lNb4K8WR70CaDxhuNguS2XG+GjkyMwOzsN5ZktImfhLA==
 
 object-to-formdata@^4.1.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/object-to-formdata/-/object-to-formdata-4.1.0.tgz#0d7bdd6f9e4efa8c0075a770c11ec92b7bf6c560"
-  integrity sha512-4Ti3VLTspWOUt5QIBl5/BpvLBnr4tbFpZ/FpXKWQFqLslvGIB3ug3jurW/k8iIpoyE6HcZhhmQ6mFiOq1tKGEQ==
+  version "4.4.2"
+  resolved "https://registry.yarnpkg.com/object-to-formdata/-/object-to-formdata-4.4.2.tgz#f89013f90493c58cb5f6ab9f50b7aeec30745ea6"
+  integrity sha512-fu6UDjsqIfFUu/B3GXJ2IFnNAL/YbsC1PPzqDIFXcfkhdYjTD3K4zqhyD/lZ6+KdP9O/64YIPckIOiS5ouXwLA==
 
 object.assign@^4.1.0:
   version "4.1.2"
