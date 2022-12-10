@@ -57,5 +57,8 @@
     "mc",
     "shopaholic",
     "goodnews"
-  ]
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
 }
